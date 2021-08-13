@@ -41,14 +41,14 @@ function move() {
   // Use counter to access bus stops in the array busStops
   // Make sure you call move() after you increment the counter.
   setTimeout( () => {
-    if (index >= bartStops.length) { // ha az index nagyon vagy egyenlő a busStop array hosszával
-      return; // return
-    } else { // ha meg kisebb
-      marker.setLngLat(bartStops[index]); // set marker (iránytű thingy) length/latitude to the array’s index
-      index++; // index növekedjen
-      move(); // hívja meg a functiont s csinálja megint amíg elér az array végére
+    if (index >= bartStops.length) { 
+      return; 
+    } else { 
+      marker.setLngLat(bartStops[index]); 
+      index++; 
+      move(); 
     }
-  }, 1000); // 1 másodpercenként
+  }, 1000); 
 }
 
 
