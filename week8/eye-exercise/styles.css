@@ -1,0 +1,57 @@
+body {
+  height:100%;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+#ziltoid {
+  width: 146em;
+  height: 82em;
+  margin: 0;
+  position: absolute;
+}
+
+.entire-div-eye {
+  width: 12em;
+  text-align: center;
+  position: absolute;
+  left: 67em;
+  top: 13em;
+}
+
+.eye-white {
+  width: 3em;
+  height: 3em;
+  background: #fff;
+  display: inline-block;
+  margin: 0.2em;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ball-black {
+  width: 1em;
+  height: 1em;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.ball-yellow {
+  width: 1.8em;
+  height: 1.8em;
+  background: #766a3b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+
+
