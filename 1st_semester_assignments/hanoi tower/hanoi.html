@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="./hanoi.js"></script>
+</head>
+
+<body>  
+  <div class="container">
+    <h1>The tower of Hanoi</h1>
+
+    <div class="text-container">
+      <p>The tower of Hanoi (commonly also known as the "towers of Hanoi"), is a puzzle invented by E. Lucas in 1883. It is also known as the Tower of Brahma puzzle and appeared as an intelligence test for apes in the film Rise of the Planet of the Apes (2011) under the name "Lucas Tower."</p>
+
+      <p>Given a stack of n disks arranged from largest on the bottom to smallest on top placed on a rod, together with two empty rods, the tower of Hanoi puzzle asks for the minimum number of moves required to move the stack from one rod to another, where moves are allowed only if they place smaller disks on top of larger disks. The puzzle with n=4 pegs and n disks is sometimes known as Reve's puzzle.</p>
+
+      <p>To start the game, insert a number, up to 10, to calculate Hanoi Tower!</p>
+    </div>
+
+
+    <div class="input">
+      <input type="text" id="numDisk" name="numDisk" size="5">
+    </div>
+
+     <div class="button-container">
+      <button onclick="makeMove()" id="makemove">Calculate</button>
+    </div>
+
+    <div class="button2-container">
+      <button onclick="reset()">Reset</button>
+    </div>
+
+      <div class="game" id="game">
+      </div>
+
+    <script src="./tower.js"></script>
+  </div>
+
+</body>
+
+</html>

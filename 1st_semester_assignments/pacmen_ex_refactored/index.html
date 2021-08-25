@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Pacmen</title>
+        <script src="./pacmen.js"></script>
+    </head>
+    <body>
+        <div id='game'>
+            <button onclick="makeOne()" height="30">Add frog</button>
+            <button onclick="update()" height="30">Add speed</button>
+            <!-- NEW: adding new button -->
+            <button onclick="reset()">Reset</button>
+        </div>
+    </body>
+    <!-- NEW: adding styling -->
+    <style>
+        body {
+            background: linear-gradient(#c5d6ff, #dfe8ff);
+        }
+
+        button {
+          padding: 10px;
+          border: 1px solid #fff;
+          border-radius: 20px;
+          cursor: pointer;
+          color: #fff;
+          background-color: #0a4876;
+          opacity: 0.7;
+          font-size: 1.2rem;
+          font-family: 'Arial';
+          font-weight: 100;
+          box-shadow: 2px 2px 5px #AFE9FF;
+          transition-duration: 0.5s;
+          -webkit-transition-duration: 0.5s;
+          -moz-transition-duration: 0.5s;
+        }
+
+        button:hover {
+          color: #000;
+          background-color: #fff;
+          border: 1px solid #006398;
+          box-shadow: 2px 2px 20px #AFE9FF;
+        }
+    <style>
+</html>

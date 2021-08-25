@@ -1,0 +1,233 @@
+﻿/*fixing Font Awesome icons showing up as blocks*/
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+/*importing Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap');
+
+html {
+	height:  100vh;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+/*NAVIGATION*/
+
+/*does not allow me to overwrite default color of anchor: 
+
+a {
+	color: #2C363F;
+}
+*/
+
+.navbar-brand {
+	color: #2C363F;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.nav-link, .fa-linkedin-square, .fa-github-alt {
+	color: #2C363F;
+	font-size:  1.1rem;
+	font-weight: 450;
+	border-radius: 0.2em;
+	padding: 0.2em;
+	cursor: pointer;
+}
+
+
+.nav-link:hover{
+    color: #fff;
+    background: #A774A7;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+/*INTRODUCTION */
+
+.introduction-content {
+	margin-top: 4rem;
+}
+
+.introduction-content h1 {
+	font-weight: 900;
+	font-size: 3rem;
+}
+
+.introduction-content h3 {
+	font-weight: 700;
+}
+
+
+/* SOCIAL MEDIA ICONS */
+.fa-linkedin-square, .fa-github-alt {
+	padding: 0.1em;
+}
+
+.fa-linkedin-square:hover, .fa-github-alt:hover {
+	padding: 0.1em;
+	color: #fff;
+    background: #28A5FF;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+/* YOUTUBE VIDEO */
+
+.yt-vid{
+	border-radius: 1.2em;
+}
+
+.embed-responsive {
+	margin-top: 7.8em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 1em;
+}
+
+/* ABOUT ME */
+
+.about-me-title {
+	font-weight: 900;
+	font-size: 2.2rem;
+}
+
+/* ABOUT ME DESCRIPTION */
+
+.container {
+	margin-left: 4em;
+}
+
+
+/* IMG */
+
+.img-content {
+	margin-top: 3.8em;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 1em;
+}
+
+.my-pic {
+	border-radius: 1em;
+
+}
+
+
+/* PARAGRAPH*/
+
+p, li {
+	font-size: 1.1rem;
+	font-weight: 350;
+
+}
+
+.p-bold {
+	font-size: 1.5rem;
+	font-weight: 450;
+}
+
+
+/* CONTAINERS */
+
+.col-md-5 {
+	margin-top: 6em;
+}
+
+.col-md-6 {
+	margin-top: 6em;
+}
+
+
+/* FOOTER */
+.attr-row {
+	padding: 1em;
+	background: #DEF7EE;
+	border-radius: 2em;
+}
+
+.footer-class {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+
+.attribution a {
+	border-radius: 0.2em;
+	padding: 0.2em;
+	color: #2C363F;
+	font-weight: 350;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.attribution a:hover {
+	color: #fff;
+    background: #A774A7;
+   	text-decoration: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.made-by {
+	font-size: 1em;
+}
+
+
+/* RESUME */
+
+/*iframe {
+	height: 85%;
+	width: 100%;
+	border-radius: 1em;
+}
+*/
+
+.pdf-cont {
+	margin: 0 auto;
+	height: 50%;
+	width: 50%;
+}
+
+
+.pdf {
+	height: 85%;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 1em;
+}
+
+
+/* PROJECTS */
+.projects-heading {
+	font-weight:  900;
+	font-size:  3em;
+}
+
+/* BACKGROUND CIRCLES */
+.circles_top {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.circles_center {
+	position: absolute;
+	top: 10;
+	right: 10;
+	z-index: -1;
+}
+
+	
+
+
+
+
+
+
+
+
+
