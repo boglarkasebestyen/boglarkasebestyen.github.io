@@ -28,6 +28,7 @@ a {
 	font-weight: 700;
 }
 
+
 .nav-link, .fa-linkedin-square, .fa-github-alt {
 	color: #2C363F;
 	font-size:  1.1rem;
@@ -52,10 +53,12 @@ a {
 	margin-top: 4rem;
 }
 
+
 .introduction-content h1 {
 	font-weight: 900;
 	font-size: 3rem;
 }
+
 
 .introduction-content h3 {
 	font-weight: 700;
@@ -66,6 +69,7 @@ a {
 .fa-linkedin-square, .fa-github-alt {
 	padding: 0.1em;
 }
+
 
 .fa-linkedin-square:hover, .fa-github-alt:hover {
 	padding: 0.1em;
@@ -88,12 +92,14 @@ a {
 	border-radius: 1em;
 }
 
+
 /* ABOUT ME */
 
 .about-me-title {
 	font-weight: 900;
 	font-size: 2.2rem;
 }
+
 
 /* ABOUT ME DESCRIPTION */
 
@@ -112,7 +118,6 @@ a {
 
 .my-pic {
 	border-radius: 1em;
-
 }
 
 
@@ -121,8 +126,8 @@ a {
 p, li {
 	font-size: 1.1rem;
 	font-weight: 350;
-
 }
+
 
 .p-bold {
 	font-size: 1.5rem;
@@ -136,6 +141,7 @@ p, li {
 	margin-top: 6em;
 }
 
+
 .col-md-6 {
 	margin-top: 6em;
 }
@@ -147,6 +153,7 @@ p, li {
 	background: #DEF7EE;
 	border-radius: 2em;
 }
+
 
 .footer-class {
 	margin-left: 1em;
@@ -163,6 +170,7 @@ p, li {
 	text-decoration: none;
 }
 
+
 .attribution a:hover {
 	color: #fff;
     background: #A774A7;
@@ -170,6 +178,7 @@ p, li {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
+
 
 .made-by {
 	font-size: 1em;
@@ -206,6 +215,26 @@ p, li {
 	font-size:  3em;
 }
 
+
+.github-links {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 0.02em;
+}
+
+
+.github-links:hover {
+	text-decoration: none;
+	color: #fff;
+    background: #23AFB1;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 0.2em;
+	padding: 0.02em;
+}
+
+
 /* BACKGROUND CIRCLES */
 .circles_top {
 	position: absolute;
@@ -213,6 +242,7 @@ p, li {
 	right: 0;
 	z-index: -1;
 }
+
 
 .circles_center {
 	position: absolute;
@@ -222,12 +252,3 @@ p, li {
 }
 
 	
-
-
-
-
-
-
-
-
-
