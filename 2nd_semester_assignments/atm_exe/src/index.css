@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1 {
+      margin-left: 13.5em;
+      margin-top: 2em;
+  }
+  
+    
+  .atm {
+    height: 60em; 
+    width: 60em;
+    /* background: rgba(16, 119, 224, 0.16);  */
+    margin: 4em auto;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 10px;
+  }
+
+  .atm2 {
+    height: 30em;
+    width: 30em;
+    background: rgba(16, 119, 224, 0.16);
+    margin: 100px auto;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 2.5em;
+    border-radius: 10px;
+  }
+  
+  
+  p {
+    font-size: 1.4em;
+    padding-left: 0.2em;
+    line-height: 0.5em;
+  }
+  
+  input {
+    padding-bottom: 0.3em;
+    padding-left: 0.4em;
+    font-family: 'Alata', sans-serif;
+    font-size: 0.95em;
+  }
+
