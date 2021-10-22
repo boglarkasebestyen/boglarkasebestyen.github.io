@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Roadmap of Future Improvements
+
+* disable button after it was clicked already 
+* disable all squares when player X or 0 wins 
+* set a specific color for player X and 0
+* add a restart game button
+* random background color not needed
+
 ## Available Scripts
 
 In the project directory, you can run:
