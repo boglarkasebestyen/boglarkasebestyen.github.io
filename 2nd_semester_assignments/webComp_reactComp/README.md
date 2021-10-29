@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+This week's practice exercise involved using JavaScript logic and routing to route between multiple documents / pages, and single page applications (SAP) with web components vs React components.
+
+I refactored the exercise that involved converting web components to React components. Started code was provided.
+
+Changes made:
+
+- styling, using Bootstrap Navigation and Card components
+- adding additional info to our .json file
+
+## Roadmap of Future Improvements
+ - refactoring the links
+ 
 ## Available Scripts
 
 In the project directory, you can run:
