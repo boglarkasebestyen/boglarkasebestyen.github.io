@@ -1,0 +1,31 @@
+{
+  "movies": [
+    {
+      "title": "Casablanca",
+      "showTime": "Sun 8 Feb - 10:00 PM",
+      "screen": "4",
+      "row": "F",
+      "seat": "21,21",
+      "imageUrl": "https://resizing.flixster.com/1AihiP2VoZOgyhOx4EBb4Oyj57g=/206x305/v2/https://flxt.tmsimg.com/assets/p651_p_v13_az.jpg",
+      "info": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco."
+    },
+    {
+      "title": "The Wizard of Oz",
+      "showTime": "Sun 12 Feb - 10:00 PM",
+      "screen": "2",
+      "row": "C",
+      "seat": "8,9",
+      "imageUrl": "https://resizing.flixster.com/ulqUDhVVuKGWDLeBtkp9KjyReo8=/206x305/v2/https://flxt.tmsimg.com/NowShowing/129612/129612_ab.jpg",
+      "info": "Young Dorothy Gale and her dog are swept away by a tornado from their Kansas farm to the magical Land of Oz, and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others' wishes."
+    },
+    {
+      "title": "Citizen Kane",
+      "showTime": "Sun 24 Feb - 10:00 PM",
+      "screen": "7",
+      "row": "A",
+      "seat": "15,17",
+      "imageUrl": "https://resizing.flixster.com/TFBv-8EpN6nFPkEcsGPzQxgndF4=/206x305/v2/https://flxt.tmsimg.com/assets/p1485_p_v10_ac.jpg",
+      "info": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance; 'Rosebud'."
+    }
+  ]
+}
