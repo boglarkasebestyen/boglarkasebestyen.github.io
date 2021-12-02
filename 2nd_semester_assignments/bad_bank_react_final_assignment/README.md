@@ -1,8 +1,48 @@
-# Getting Started with Create React App
+# Bad Bank
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### A React SPA without a backend
+This project presents the frontend side of a single page banking application built on following the provided user stories and with the help of the provided starter code. I have refactored its design, implemented the components, added additional validation criteria, as well as used React Context in order to share the required data amongst the components.
 
-## Available Scripts
+<p align="center">
+<img src="https://media.giphy.com/media/kdwliJMgKobzuHCsqw/giphy.gif?cid=790b76117e9e9e27fc79c5af5692d4445711e435fa9dfedb&rid=giphy.gif&ct=g"
+</p>
+
+
+###  How it works:
+The app allows users to interact with it by completing the form on the Create Account page, submitting their information, depositing and withdrawing "money", and having all that data bundled together and displayed in one place.
+
+## Technologies used
+
+- HTML5, CSS3, Bootstrap, React Tooltip
+- Javascript, React.js (functional, with hooks)
+- deployed to AWS
+
+
+### Additional info
+* <div>Home page image source: <a href="https://pixabay.com/users/megan_rexazin-6742250/">Megan Rexazin</a> from <a href="https://pixabay.com/vectors/bank-finance-money-coin-business-4859142/
+/" title="Pixabay">Pixabay</a></div>
+* Background image source: [WallpaperCave](https://wallpapercave.com/w/wp6599220) 
+
+
+## Live demo
+Take a look at the project [here](https://boglarka-sebestyenbankingapplication.s3.us-west-1.amazonaws.com/index.html#/alldata/).
+
+# License
+
+MIT License
+
+Copyright (c) 2021 Boglárka Sebestyén
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--
+### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -39,7 +79,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
