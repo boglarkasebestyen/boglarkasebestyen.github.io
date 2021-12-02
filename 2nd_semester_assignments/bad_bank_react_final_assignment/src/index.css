@@ -1,0 +1,151 @@
+html {
+	height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(rgba(240, 241, 241, 0.5), rgba(95, 95, 95, 0.5)),url("https://wallpapercave.com/wp/wp6599220.jpg");
+  background-size: cover;
+  /* background-attachment: fixed; --> I don't see any difference*/ 
+}
+
+.container {
+  height: 100vh;
+  padding: 1em;
+  margin: 0;
+  max-width: 100vw;
+}
+
+.cardContainer.card {
+  display: inline-block;
+  margin: 1em;
+  width: 23em;
+  box-shadow: 0.7em 0.7em 0.7em 0.7em rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  /* background-color: yellow; */
+}
+
+
+/* NAVIGATION 
+
+It is to be noted that in the CSS definition, 
+a:hover must come after a:link and a:visited 
+and also a:active must come after the a:hover 
+in order to be effective.
+*/
+
+a.nav-link {
+  display: inline-block;
+	border-radius: 0.25em;  
+	cursor: pointer;
+}
+
+a.nav-link:hover {
+  background: #008080;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;  
+}
+
+a.current {
+  background: #008080;
+}
+
+/* 
+ - changing the font color to a shade of white when the nav item is clicked 
+ (otherwise it looks like it's disabled, comes from Bootstrap)
+ - has to be as specific as it can get
+ - .navbar-nav is the parent, and we need the item that's both .nav-link and current
+*/
+.navbar-nav .nav-link.current {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+/* ERROR MESSAGES */
+.error {
+  margin-top: 1em;
+  font-size: 1.1em;
+  line-height: 1em;
+  font-weight: bold;
+
+  color:#fe89d9;
+  display: block;
+  text-align: center;
+}
+
+
+/* INPUT FIELD FOCUS */
+input.form-control:focus {
+  background:#b0e5fe;
+}
+
+/* BUTTONS */
+button.submitBtn.btn.btn-light {
+  background: #094d87;
+  color: white;
+  border-style: none;
+}
+
+/* order: first hover */
+/* for specificity reasons, it has to be written like this */
+button.submitBtn.btn-light:not(:disabled):not(:disabled):active {
+  background: #2266a0;
+  color: #fff;
+  -webkit-transition-duration: 0s; 
+  transition-duration: 0s;  
+}
+
+/* then active */
+/* disable hover on disabled buttons */
+button.submitBtn.btn-light:disabled:hover {
+  pointer-events: none;
+}
+
+/* when button is not disabled, apply hover effect */
+button.submitBtn.btn-light:not(:disabled):hover {
+  background: #02111e;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;  
+}
+
+/* SUCCESFUL DEPOSIT / WITHDRAWAL MESSAGE */
+.message h6 {
+  font-size: 1.1em;
+  line-height: 1em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  display: block;
+  text-align: center;
+}
+
+/* SUCCESFULY CREATED ACCOUNT MESSAGE */
+.accMessage h6 {
+  font-size: 1.1em;
+  line-height: 1em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  display: block;
+}
+
+/* ALL DATA PAGE DATA COLLECTION */
+.alldata h6{
+  margin-bottom: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
