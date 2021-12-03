@@ -25,7 +25,7 @@ The app allows users to interact with it by completing the form on the Create Ac
 
 
 ## Live demo
-Take a look at the project [here](https://boglarka-sebestyenbankingapplication.s3.us-west-1.amazonaws.com/index.html#/alldata/).
+Take a look at the project [here](https://boglarka-sebestyenbankingapplication.s3.us-west-1.amazonaws.com/index.html#/).
 
 # License
 
