@@ -1,7 +1,7 @@
 # Bad Bank
 
 ### A React SPA without a backend
-This project presents the frontend side of a single page banking application built on following the provided user stories and with the help of the provided starter code. I have refactored its design, implemented the components, added additional validation criteria, as well as used React Context in order to share the required data amongst the components.
+This project is my 2nd semester final assignment via MIT xPro's Fullstack with MERN course. It demonstrates the frontend side of a single page banking application built on following the provided user stories and with the help of the provided starter code. I have refactored its design, implemented the components, added additional validation criteria, as well as used React Context in order to share the required data between the components.
 
 <p align="center">
 <img src="https://media.giphy.com/media/kdwliJMgKobzuHCsqw/giphy.gif?cid=790b76117e9e9e27fc79c5af5692d4445711e435fa9dfedb&rid=giphy.gif&ct=g"
@@ -9,23 +9,26 @@ This project presents the frontend side of a single page banking application bui
 
 
 ###  How it works:
-The app allows users to interact with it by completing the form on the Create Account page, submitting their information, depositing and withdrawing "money", and having all that data bundled together and displayed in one place.
+The app allows users to interact with it by completing the form on the Create Account page, submitting their information, depositing and withdrawing "money" on the Deposit and Withdraw page, while having all that data bundled together and displayed in one place under All Data.
 
 ## Technologies used
 
-- HTML5, CSS3, Bootstrap, React Tooltip
+- HTML5, CSS3, React Bootstrap, React Tooltip
 - Javascript, React.js (functional, with hooks)
 - deployed to AWS
 
 
 ### Additional info
+* Background image source: [WallpaperCave](https://wallpapercave.com/w/wp6599220) 
 * <div>Home page image source: <a href="https://pixabay.com/users/megan_rexazin-6742250/">Megan Rexazin</a> from <a href="https://pixabay.com/vectors/bank-finance-money-coin-business-4859142/
 /" title="Pixabay">Pixabay</a></div>
-* Background image source: [WallpaperCave](https://wallpapercave.com/w/wp6599220) 
+
 
 
 ## Live demo
 Take a look at the project [here](https://boglarka-sebestyenbankingapplication.s3.us-west-1.amazonaws.com/index.html#/).
+
+
 
 # License
 
