@@ -1312,6 +1312,19 @@
       "latitude": "42.7072",
       "longitude": "-12.6779",
       "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/karolkrakowiak_/128.jpg"
+    },
+    {
+      "name": "Jay Schneider",
+      "dob": "1952-3-26",
+      "email": "Jay46@gmail.com",
+      "username": "Jay.Schneider12",
+      "password": "0JAruX0Xy7cUMYV",
+      "phone": "868-938-2307 x1601",
+      "streetaddress": "15674 Kelli Junction",
+      "citystatezip": "Port Preciousmouth, NC 28652",
+      "latitude": "10.4003",
+      "longitude": "55.9394",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/jackiesaik/128.jpg"
     }
   ]
 }
