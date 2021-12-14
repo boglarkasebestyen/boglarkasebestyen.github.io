@@ -1299,6 +1299,19 @@
       "latitude": "84.5635",
       "longitude": "-92.6138",
       "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/kkusaa/128.jpg"
+    },
+    {
+      "name": "Theo Jacobs",
+      "dob": "1983-6-7",
+      "email": "Theo57@gmail.com",
+      "username": "Theo95",
+      "password": "hgaTkw9NLRKDEZc",
+      "phone": "1-747-269-5455 x4508",
+      "streetaddress": "36405 Stoltenberg Dam",
+      "citystatezip": "Carterport, ID 36113",
+      "latitude": "42.7072",
+      "longitude": "-12.6779",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/karolkrakowiak_/128.jpg"
     }
   ]
 }

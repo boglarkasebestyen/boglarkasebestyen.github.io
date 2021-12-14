@@ -24,7 +24,8 @@
     "express": "^4.17.1",
     "faker": "^5.5.3",
     "lowdb": "^1.0.0",
-    "node": "^17.2.0"
+    "node": "^17.2.0",
+    "strapi-plugin-graphql": "^3.6.8"
   },
   "engines": {
     "node": "14.x"
