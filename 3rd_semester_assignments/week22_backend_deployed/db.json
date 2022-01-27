@@ -1325,6 +1325,9 @@
       "latitude": "10.4003",
       "longitude": "55.9394",
       "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/jackiesaik/128.jpg"
+    },
+    {
+      "name": "test"
     }
   ]
 }
